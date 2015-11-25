@@ -43,7 +43,13 @@ Bold
 	end
 
 ---
-[Google先生](https://www.google.co.jp/)
+これは[Google株式会社][google]による成果である．
+
+先程も記載したが，[例の][google]ページはなかなかヤバイ．
+
+[google]: http://google.com/
+
+
 
 ```ruby
 require 'redcarpet'
