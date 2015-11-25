@@ -45,13 +45,11 @@ Bold
 ---
 [Google先生](https://www.google.co.jp/)
 
-　~~~ruby
-　class Hoge
-　  def hoge
-　    print 'hoge'
-　  end
-　end
-　~~~
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 
 |header1|header2|header3|
 |:--|--:|:--:|
